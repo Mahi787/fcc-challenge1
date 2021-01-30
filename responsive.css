@@ -1,0 +1,25 @@
+@media only screen and (max-width: 480px) {
+    #title h1{
+        font-size: 27px;
+        
+    }
+    #tribute-info>h3{
+        font-size: 20px !important;
+        margin: 45px;
+    }
+     p{
+        font-size: 14px !important;
+    }
+    #tribute-info{
+        width: 90% !important;
+        
+    }
+    ul li{
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+    #tribute-link>h3{
+        font-size: 15px !important;
+        width: 420px;
+    }
+}
