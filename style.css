@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica,'Titillium Web', sans-serif,Arial,sans-serif;
+    background-color: #fff;
+}
+#main{
+    background: #eee;
+    width: 98%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+#main #title h1,#main #title p{
+    color: #424242;
+    text-transform: capitalize;
+}
+#title{
+    text-align: center;
+}
+#title h1{
+    margin-top:70px;
+    margin-bottom: 0;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+#title p{
+    margin-top: 18px;
+    margin-bottom: 26px;
+    font-size: 19px;
+}
+#img-div{
+    background: #fff;
+    width: 97%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#img-div img{
+    width: 97%;
+}
+#img-div #img-caption{
+    font-size: 22px;
+    color: #3a3939;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#tribute-info{
+    width: 1020px;
+    margin:0 auto;
+    overflow: hidden;
+}
+#tribute-info h3:not(.wiki){
+    color: #575555;
+    font-size: 29px;
+    margin: 30px auto;
+    width: max-content;
+}
+#tribute-info ul{
+    color: #313131;
+}
+#tribute-info ul li{
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+#tribute-link{
+
+     width: max-content;
+     margin: 0 auto;
+     padding: 33px 0px 33px 0;
+}
+.wiki {
+    color: #333;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
